@@ -1,10 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:sizer/sizer.dart';
-
 import 'modules/login/view/login_view.dart';
-//firebase
 import 'package:firebase_core/firebase_core.dart';
-import 'package:firebase_auth/firebase_auth.dart';
 
 Future<void> main() async {
   WidgetsFlutterBinding.ensureInitialized();
